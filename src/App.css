@@ -1,38 +1,155 @@
-.App {
-  text-align: center;
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin:0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  font-family: 'Poppins', sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.navbar{
+  height:20vh;
+  background-color: #333;
+  color:rgb(240, 12, 80);
+  display:flex;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+nav{
+  flex:0.5;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  font-size:20px;
+}
+nav ul li{
+  color:rgb(240, 12, 80);
+}
+nav ul a{
+  text-decoration: none;
+}
+.home-container{
+  height: 80vh;
+  width:100vw;
+  background-image: url(./images/bath-powder-5939269_1280.jpg) ;
+  background-repeat: no-repeat;
+  background-size:cover;
+  display: flex;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.home-container a{
+  margin-left:70%;
+  display: block;
+  color:rgb(240, 12, 80);
+  text-decoration: none;
+  padding:10px 10px;
+  background-color: rgba(255, 255, 255, .15);  
+ backdrop-filter: blur(5px);
+border-radius: 8px;
+}
+.item-list{
+  width:100vw;
+  margin-top:40px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.item{
+width:30vw;
+margin-bottom:40px;
+}
+.image{
+  width:100%;
+}
+.image img{
+  width: 100%;
+}
+.item-list a{
+text-decoration: none;
+}
+.item p{
+  letter-spacing: 1px;
+}
+.info{
+  color:black;
+}
+.addtocart{
+  width: 100vw;
+  margin-top:50px;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+.product-img{
+  width:40%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.product-img img{
+  width: 100%;
+}
+.cartButton p{
+  letter-spacing: 1px;
+  color:rgb(240, 12, 80);
+  margin-bottom: 10px;
+}
+.cartButton button{
+  border:none;
+  outline: none;
+  padding:10px 10px;
+  margin-top:30px;
+  font-size:40px;
+  color:rgb(240, 12, 80);
+  background-color: rgba(0, 0, 0, 0.15);  
+ backdrop-filter: blur(5px);
+border-radius: 8px;
+}
+.cartButton button:hover{
+  cursor: pointer;
+}
+.cart{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.cart-item{
+  display:flex;
+  flex-direction: column;
+  width:33vw;
+  margin-bottom: 20px;
+}
+.cartPro-img{
+width:100%;
+}
+.cartPro-img img{
+  width: 100%  ;
+}
+@media screen and (max-width:600px) {
+  .cart-item{
+    width:100vw;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+
+.no-products{
+  display: flex;
+}
+.no-products p{
+  padding:10px 25px;
+  border:1px solid black;
+  text-align: center;
+  font-size:15px;
+}
+.no-products button{
+  border:none;
+  font-size:25px;
+  margin:5px 5px;
+}
+ .add{
+  margin-right:5px
+}
+ .sub{
+  margin-left:5px;
 }
