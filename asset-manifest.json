@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Shopping-cart/static/css/main.26e200c5.chunk.css",
+    "main.js": "/Shopping-cart/static/js/main.a3038431.chunk.js",
+    "main.js.map": "/Shopping-cart/static/js/main.a3038431.chunk.js.map",
+    "runtime-main.js": "/Shopping-cart/static/js/runtime-main.94801efe.js",
+    "runtime-main.js.map": "/Shopping-cart/static/js/runtime-main.94801efe.js.map",
+    "static/js/2.3581b5c7.chunk.js": "/Shopping-cart/static/js/2.3581b5c7.chunk.js",
+    "static/js/2.3581b5c7.chunk.js.map": "/Shopping-cart/static/js/2.3581b5c7.chunk.js.map",
+    "static/js/3.0e13a81a.chunk.js": "/Shopping-cart/static/js/3.0e13a81a.chunk.js",
+    "static/js/3.0e13a81a.chunk.js.map": "/Shopping-cart/static/js/3.0e13a81a.chunk.js.map",
+    "index.html": "/Shopping-cart/index.html",
+    "static/css/main.26e200c5.chunk.css.map": "/Shopping-cart/static/css/main.26e200c5.chunk.css.map",
+    "static/js/2.3581b5c7.chunk.js.LICENSE.txt": "/Shopping-cart/static/js/2.3581b5c7.chunk.js.LICENSE.txt",
+    "static/media/amphora.a8eb444f.png": "/Shopping-cart/static/media/amphora.a8eb444f.png",
+    "static/media/App.css": "/Shopping-cart/static/media/bath-powder-5939269_1280.65cdd8c6.jpg",
+    "static/media/clay-pot.1a738513.jpg": "/Shopping-cart/static/media/clay-pot.1a738513.jpg",
+    "static/media/cup.1471033b.jpg": "/Shopping-cart/static/media/cup.1471033b.jpg",
+    "static/media/light.0c479010.jpg": "/Shopping-cart/static/media/light.0c479010.jpg",
+    "static/media/plants.ca749c2d.jpg": "/Shopping-cart/static/media/plants.ca749c2d.jpg",
+    "static/media/vase.e2a02ee8.png": "/Shopping-cart/static/media/vase.e2a02ee8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.94801efe.js",
+    "static/js/2.3581b5c7.chunk.js",
+    "static/css/main.26e200c5.chunk.css",
+    "static/js/main.a3038431.chunk.js"
+  ]
+}
